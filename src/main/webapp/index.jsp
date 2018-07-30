@@ -13,7 +13,7 @@
   </head>
   <body>
   <h1>Vietnamese Dictionary</h1>
-  <form method="post" action="/translate">
+  <form method="get" action="/translate">
     <input type="text" name="word" placeholder="Enter your word:">
     <input type="submit" value="Search">
   </form>
